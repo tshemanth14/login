@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-color: lightgreen;
+        }
+        .parent{
+            background-color: white;
+            width: 30%;
+            margin: auto;
+            padding: 4% 0%;
+            border-radius: 10px;
+            margin-top: 4%;
+        }
+        .login
+        {
+            font-family: sans-serif;
+            color: green;
+            text-align: center;
+        }
+        .input
+        {
+            padding: 3% 2%;
+            width: 70%;
+            margin-left: 15%;
+        }
+        .btn
+        {
+            margin-left: 40%;
+            width: 20%;
+            padding: 2% 2%;
+            background-color: green;
+            border-radius: 5px;
+            color: white;
+        }
+        .forget,.signup
+        {
+            text-align: center;
+        }
+        .forget a,
+        .signup a{
+            text-decoration: none;
+            color: green;
+        }
+        @media(max-width:600px)
+        {
+            .parent
+            {
+                width: 100%;
+                margin: 0%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h1 class="login">Login</h1>
+        <p><input class="input" type="email" placeholder="email"/></p>
+        <p><input class="input" type="password" placeholder="password"/></p>
+        <p style="margin-left: 15%;"><input type="checkbox"/>Show Password</p>
+        <button class="btn">SIGN IN</button>
+        <p class="forget">Forget <a href="">Username</a> /<a href="">Password</a></p>
+        <p class="signup">Don't have an account?<a href="">Sign Up</a></p>
+    </div>
+</body>
+</html>
